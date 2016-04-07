@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elijah Parkhurst</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="container-fluid hey">
+      <div class="textBox">
+        <h1>Elijah Parkhurst</h1>
+        <h2>FullStack Developer</h2>
+      </div>
+    </div>
+    <div class="container-fluid overview">
+      <div class="row">
+        <div class="col-sm-5 pic">
+          <img src="imgs/verticle.jpg" alt="a picture of Eli" />
+        </div>
+        <div class="col-sm-7 text">
+          <h1>Overview</h1>
+          <p>
+            I am a fullstack web developer living in Denver Colorado. In September 2015 I quit the world of anyalytical chemistry and vowed to never use Windows ME again. After several months of tinkering and 6 months in a fullstack emersion program at Galvanize I can now call myself a developer. From creating RESTful APIs to sprucing up the look of a site, I like it all.
+          </p>
+          <a href="https://www.linkedin.com/in/eliparkhurst" target="_blank" class="btn btn-default"><span class="fa fa-linkedin-square"> Linked In</a>
+          <a href="https://github.com/eparkhurst" target="_blank" class="btn btn-default"><span class="fa fa-github-square"></span> Git Hub</a>
+          <a href="mailto:eli.parkhurst@gmail.com" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+          <a href="/Resume-ElijahParkhurst.pdf" class="btn btn-default"><span class="fa fa-file-pdf-o"></span> Resume</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid portfolio">
+      <div class="row">
+        <div class="portfolio-item col-sm-4 pi1">
+          <a href="views/gitUp.html">
+              <img src="imgs/gitup.png" alt="image of gitup" />
+            <div class="cover c1">
+              <h3>Git Up</h3>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio-item col-sm-4 pi2">
+          <a href="views/brewsBros.html">
+              <img src="imgs/brewsbrothers.png" alt="image of brews brothers" />
+            <div class="cover c2">
+              <h3>Brews Brothers</h3>
+            </div>
+          </a>
+        </div>
+        <div class="portfolio-item col-sm-4 pi3">
+          <a href="views/moviePicker.html">
+              <img src="imgs/moviepicker.png" alt="image of moviepicker" />
+            <div class="cover c3">
+              <h3>Movie Picker</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid pastLives">
+      <div class="topcon">
+        <div class="top-p">
+          <h1>Past Lives</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 lives">
+          <div class="" ng-click="toggle()">
+            <div class="panel panel-body center-block treatmentBox" >
+              <h2><span class="fa fa-fire-extinguisher"></span></h2>
+              <h2>Treatment Counselor</h2>
+              <div ng-show="tc" class="shilohDescription">
+                <img class="thumbnail" src="../imgs/shiloh.jpg" alt="" />
+                <p>
+                  I spent 2 years working with homeless teenagers as a treatment counselor. To date this is the most intense thing I have ever done. In many ways it shaped who I am today.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 lives" ng-click="oc = !oc">
+          <div class="panel panel-body center-block chembox">
+            <h2><span class="fa fa-flask"></span></h2>
+            <h2>Organic Chemist</h2>
+            <div ng-show="oc" class="chemistryDescription">
+              <img class="thumbnail" src="../imgs/lab.jpg" alt="" />
+              <p>
+                I worked for almost 2 years as an organic chemist at an environmental testing company.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 lives" ng-click="sb = !sb">
+          <div class="panel panel-body center-block skibox">
+            <h2> <span class="glyphicon glyphicon-tree-conifer"></span></h2>
+            <h2>Ski Bum</h2>
+            <div ng-show="sb" class="skiDescription">
+              <img class="thumbnail" src="../imgs/snow.jpg" alt="" />
+              <p>
+                I lived in Aspen for a winter after graduating from college.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 lives tbox" ng-click="travel = !travel">
+          <div class="panel panel-body center-block">
+            <h2><span class="glyphicon glyphicon-globe"></span></h2>
+            <h2>Taveler</h2>
+            <div ng-show="travel" class="travelDescription">
+              <img class="thumbnail" src="../imgs/tikal.jpg" alt="" />
+              <p>
+                I have a slight travel problem. To date I have been to New Zealand, Australia, Fiji, a good chunk of western Europe and every country in Central America except El Salvador
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

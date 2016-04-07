@@ -1,0 +1,34 @@
+.title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.home{
+  text-align: left;
+}
+.home a{
+   text-decoration: none;
+}
+
+.detail-page{
+  text-align: center;
+}
+.detail-page p{
+  font-size: 24px;
+}
+
+@media (min-width: 800px) {
+  .movie-container{
+    margin: auto;
+    height:650px;
+    width:750px;
+  }
+  .movie{
+    width:750px;
+    height:650px;
+  }
+}

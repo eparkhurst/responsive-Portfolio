@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+body{
+background-color: black;
+}
+
+h1{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: rgb(220,220,220)
+}
+
+h2{
+  text-align: center;
+}
+.btn{
+  font-family: "Raleway", sans-serif;
+}
+
+.hey{
+  height:100vh;
+  background-image:url("../imgs/rocky_mountains_hd-wallpapers.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textBox{
+  margin:auto;
+  color:white;
+  border:4px solid white;
+  text-align: center;
+  font-family: sans-serif;
+  padding:0 5vw;
+}
+
+.pic{
+  background-color: #49412c;
+  min-height: 100vh;
+}
+
+.pic img{
+  height: 50vh;
+  transform: rotate(270deg);
+  margin: auto;
+  margin-top: 25vh;
+}
+.text{
+  color: #b0a18e;
+  background-color: #49412c;
+  min-height: 100vh;
+  text-align: center;
+  padding: 5vh;
+  font-size:1.5em;
+}
+
+.text p{
+  margin-bottom: 10vh;
+}
+
+.portfolio{
+  min-height: 100vh;
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),url("/imgs/denver.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio-item{
+  padding:0;
+}
+
+.portfolio-item img{
+ width: auto;
+ height : auto;
+ max-height: 100%;
+ max-width: 100%;
+}
+
+.cover{
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 4;
+  background-color: rgba(0, 0, 0, 0.25);;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color:white;
+}
+
+.pastLives{
+  background-color:  #b0a18e;
+}
+
+.panel{
+  width:500px;
+  margin-bottom: 75px;
+  background-color: #b0a18e;
+}
+
+.panel:hover{
+  background-color: #bfbfbf;
+}
+
+.cover:hover{
+  display:hidden;
+}
+.cover2:hover{
+  display:none;
+}
+.cover3:hover{
+  display:none;
+}
+
+.thumbnail{
+  float: left;
+  height: 170px;
+  width: 170px;
+  margin-right: 10px;
+}
+
+.topcon{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.top{
+  border: 5px solid rgb(220,220,220);
+  color: rgb(220,220,220);
+  margin:auto;
+  margin-top: 25vh;
+}
+.top h1{
+  font-size: 50px;
+  padding: 30px 40px 0 40px;
+}
+.top h2{
+  padding-bottom: 30px;
+}
+.top-p{
+  border: 5px solid rgb(220,220,220);
+  color: rgb(220,220,220);
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.top-p h1{
+  font-size: 50px;
+  padding: 0 40px 0 40px;
+}
+
+.lives{
+  cursor: pointer;
+}
+
+.description{
+  display:none;
+}
+
+.center-block{
+    font-family: Arial;
+    font-size: 18px;
+}
