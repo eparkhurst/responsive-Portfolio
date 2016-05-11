@@ -1,14 +1,19 @@
-.title {
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color:white;
+body{
+  background-color:  #b0a18e;
 }
 
+.header{
+  margin:0 50px;
+}
 .home{
   text-align: left;
+  margin-left: 30px;
+}
+.back-icon{
+  color: #49412c;
+}
+.home:hover .back-icon{
+  color:black;
 }
 .home a{
    text-decoration: none;
@@ -21,14 +26,27 @@
   font-size: 24px;
 }
 
-@media (min-width: 800px) {
+
+.movie-container{
+  margin: auto;
+  width:60%;
+}
+.movie{
+  width:100%;
+  height: 40vw;
+}
+@media screen and (max-width:800px){
   .movie-container{
-    margin: auto;
-    height:650px;
-    width:750px;
+      width:100%;
   }
   .movie{
-    width:750px;
-    height:650px;
+    height: 50vw;
   }
+}
+
+.deploy-link{
+  color: #49412c;
+}
+.deploy-link:hover{
+  color: black;
 }
