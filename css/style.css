@@ -168,3 +168,9 @@ h2{
     font-family: Arial;
     font-size: 18px;
 }
+
+footer{
+  background-color: #49412c;
+  text-align: center;
+  height: 7vh;
+}

@@ -26,5 +26,11 @@ $(document).ready(function(){
   $(".pi3").hover(function(){
     $(".c3").toggle();
   })
+  $(".pi4").hover(function(){
+    $(".c4").toggle();
+  })
+  $(".pi5").hover(function(){
+    $(".c5").toggle();
+  })
 
 });
