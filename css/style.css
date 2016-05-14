@@ -70,6 +70,11 @@ h2{
   flex-direction: column;
   justify-content: center;
 }
+.left-portfolios{
+  display: flex;
+  flex-direction: row;
+}
+
 
 .portfolio-item{
   padding:0;
