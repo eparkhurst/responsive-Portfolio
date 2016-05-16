@@ -99,6 +99,9 @@ h2{
   text-align: center;
   color:white;
 }
+.portfolio-item-holder{
+  position: relative;
+}
 
 .pastLives{
   background-color:  #b0a18e;
