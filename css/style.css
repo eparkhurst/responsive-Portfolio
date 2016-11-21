@@ -2,6 +2,7 @@
 body{
   background-color: black;
   overflow: hidden;
+  padding: 0px;
 }
 .parallax {
    height: 500px; /* fallback for older browsers */
@@ -187,7 +188,7 @@ h2{
   background-color: #b0a18e;
 }
 
-.panel:hover{
+.panel:hover, .gButton:hover{
   background-color: #bfbfbf;
 }
 
@@ -251,4 +252,64 @@ footer{
   background-color: #49412c;
   text-align: center;
   height: 7vh;
+}
+
+
+#main{
+  border: 1px solid black;
+  width:600px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color:#bfbfbf;
+}
+#main:hover{
+  cursor: pointer;
+}
+.gameRow{
+  display: flex;
+  flex-direction: row;
+}
+.inner{
+  width:12px;
+  height:12px;
+}
+.om{
+  background-color: black;
+}
+.gButton{
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  background-color: #b0a18e;
+  border:none;
+  text-align: center;
+  margin:20px 10px;
+}
+.gButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.gTitle{
+  margin-top: 0px;
+  font-size: 72px;
+  text-align: right;
+  color: #dbdad6;
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+.gameOfLife{
+  min-height: 100vh;
+  background-color: #212223;
+}
+.gTop{
+  font-size: 48px;
+}
+.gText{
+  text-align: center;
+  color: #918f85;
 }
