@@ -209,6 +209,8 @@ function go(){
 }
 
 randomButton.onclick = function(){
+  playStatus = false
+  clearInterval(nIntervId)
   map.generateMap(true)
   currentMap = map.getMap()
   populate()
@@ -221,6 +223,7 @@ startButton.onclick = function(){
   go()
 }
 generateButton.onclick = function(){
+  playStatus = false
   clearInterval(nIntervId)
   map.generateMap()
   currentMap = map.getMap()
