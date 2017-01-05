@@ -67,6 +67,15 @@ h2{
   background-size: cover;
 }
 
+svg{
+  display: block;
+  background-color: #212223;
+  width: 100vw;
+}
+polygon{
+  min-width: 100% !important;
+}
+
 .textBox{
   margin:auto;
   color:white;
