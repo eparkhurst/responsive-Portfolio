@@ -22,10 +22,16 @@
 
         </div>
       </div>
+      <!-- <div class="container-fluid  parallax__group">
+        <svg class="parallax__layer" viewBox="0 0 200 100">
+          <polygon points="0,100  200,50  200,100" fill="green"/>
+        </svg>
+      </div> -->
       <div class="container-fluid  parallax__group">
         <div class="row parallax__layer overview">
-          <div class="triangle parallax__layer--base">
-          </div>
+          <svg display="block" class="parallax__layer--base" viewBox="0 0 200 100">
+            <polygon points="0,100  200,50  200,100" fill="#212223"/>
+          </svg>
           <div class="col-md-12 text parallax__layer--base">
             <div class="row">
               <div class="col-sm-6 about-text">
@@ -157,13 +163,37 @@
             </div>
           </div>
         </div>
+        <div class="container-fluid gameOfLife">
+          <h1 class="gTitle">Conway's Game of Life</h1>
+          <div class="gButtons">
+            <button class="gButton gTop" id="startButton">Start</button>
+            <button class="gButton gTop" id="stopButton">Stop</button>
+          </div>
+          <p class="gText">
+            Click on a cell to toggle "life"
+          </p>
+          <div id="main"></div>
+          <div class="gButtons">
+            <button class="gButton" id="randomButton">Generate Random</button>
+            <button class="gButton" id="generateButton">Generate Blank</button>
+          </div>
+        </div>
+        <footer>
+          Copyright (c) 2016 Elijah Parkhurst All Rights Reserved.
+        </footer>
       </div>
-    </div>
-    <footer>
-      Copyright (c) 2016 Elijah Parkhurst All Rights Reserved.
-    </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-89849987-1', 'auto');
+      ga('send', 'pageview');
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
