@@ -185,8 +185,8 @@ polygon{
   color:white;
 }
 
-.cover:hover +img{
-  transform: scale(1.1);
+.cover:hover{
+  opacity: 0;
 }
 
 .portfolio-item-holder{
